@@ -15,15 +15,14 @@
 
 <body>
 
-      
+<?php include('./idm232/header.php'); ?>
+
     <h1>Assignment - 01</h1>          
 
             <p class="author">Clay Logsdon <br> cml492@drexel.edu</p> 
 
 
-<footer>
-    
-</footer>
+<?php include('./idm232/footer.php'); ?>
 
 
 </body>
