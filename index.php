@@ -15,14 +15,16 @@
 
 <body>
 
-<?php include('./idm232/header.php'); ?>
+<?php include_once('./idm232/header.php'); ?>
 
-    <h1>Assignment - 01</h1>          
+<?php $txt = 'Assignment - 01';?>
+
+<h1> <?php echo $txt; ?></h1>
 
             <p class="author">Clay Logsdon <br> cml492@drexel.edu</p> 
 
 
-<?php include('./idm232/footer.php'); ?>
+<?php include_once('./idm232/footer.php'); ?>
 
 
 </body>
