@@ -1,7 +1,3 @@
-<header>
-
-
-<h1>Footer</h1>
-
-
-</header>      
+<link rel="stylesheet" href="styles.css">
+</body>
+</html>

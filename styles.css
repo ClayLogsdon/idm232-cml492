@@ -1,0 +1,353 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFAF4;
+}
+
+.red-stripe-1 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 70px;
+    background-color: red;
+}
+
+.logo {
+padding: 10px 0 0 0;
+text-align: center;
+color: green;
+font-family: 'Courgette';
+font-size: 40px;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/courgette/v13/wEO_EBrAnc9BLjLQAUk1WPoK7Es.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/courgette/v13/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin-ext */
+  @font-face {
+    font-family: 'Updock';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/updock/v2/nuF4D_3dVZ70UI9ihbi2200.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Updock';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/updock/v2/nuF4D_3dVZ70UI9ii7i2.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+.menu ul, .menu li {
+
+}
+
+.menu ul {
+    position: relative;
+    margin-top: 30px;
+
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+
+/* turns the bar grey */
+list-style: none;
+background-color: #f2f2f2;
+border-bottom: 1px solid #ccc;
+border-top: 1px solid #ccc; 
+margin-left: 0px;  
+}
+
+.menu li {
+    display: inline-block;
+text-align:center; 
+    
+}
+
+.menu a {
+    color: #000;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.menu a:hover {
+    color: #0078D4;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+.food {
+    width: 800px;
+    height: 530px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.food-name {
+    padding: 0 0 10 0;
+    text-align: center;
+    color: #000;
+    font-family: 'Updock';
+    font-size: 62px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+  .description {
+    font-family: 'Roboto';
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+  }
+
+.ingredients-title {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+}
+
+.ingredients {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+ 
+}
+
+.instructions-title {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+}
+
+
+.instructions {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #FFFAF4;
+    }
+    
+    .red-stripe-1 {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 70px;
+        background-color: red;
+    }
+    
+    .logo {
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: green;
+    font-family: 'Courgette';
+    font-size: 40px;
+    }
+    
+    /* latin-ext */
+    @font-face {
+        font-family: 'Courgette';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/courgette/v13/wEO_EBrAnc9BLjLQAUk1WPoK7Es.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: 'Courgette';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/courgette/v13/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      /* latin-ext */
+      @font-face {
+        font-family: 'Updock';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/updock/v2/nuF4D_3dVZ70UI9ihbi2200.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: 'Updock';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/updock/v2/nuF4D_3dVZ70UI9ii7i2.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    
+    
+    .menu ul, .menu li {
+    
+    }
+    
+    .menu ul {
+        position: relative;
+        margin-top: 30px;
+    
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+    
+    /* turns the bar grey */
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc; 
+    margin-left: 0px;  
+    }
+    
+    .menu li {
+        display: inline-block;
+    text-align:center; 
+        
+    }
+    
+    .menu a {
+        color: #000;
+        display: block;
+        font: bold 12px/20px sans-serif;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+    }
+    
+    .menu a:hover {
+        color: #0078D4;
+        display: block;
+        font: bold 12px/20px sans-serif;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+    }
+    
+    
+    .food {
+        width: 800px;
+        height: 530px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .food-name {
+        padding: 0 0 10 0;
+        text-align: center;
+        color: #000;
+        font-family: 'Updock';
+        font-size: 62px;
+        font-weight: 600;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    
+      .description {
+        font-family: 'Roboto';
+        text-align: center;
+        position: relative;
+        margin-top: -30px;
+      }
+    
+    .ingredients-title {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-family: 'Roboto';
+    }
+    
+    .ingredients {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 50px;
+     
+    }
+    
+    .instructions-title {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-family: 'Roboto';
+    }
+    
+    
+    .instructions {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 50px;
+     
+    }
+    
+
+
+
+}
