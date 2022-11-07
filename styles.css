@@ -113,8 +113,8 @@ text-align:center;
 
 
 .food {
-    width: 800px;
-    height: 530px;
+    width: 50%;
+    height: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -289,8 +289,8 @@ text-align:center;
     
     
     .food {
-        width: 800px;
-        height: 530px;
+        width: 70%;
+        height: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto;

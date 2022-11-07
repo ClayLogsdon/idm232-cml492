@@ -1,6 +1,4 @@
-<?php include_once('./idm232/header.php'); ?>
-
-<?php echo $title; ?>
+<?php include_once('.\header.php'); ?>
 
 <div class="red-stripe-1"> 
 
@@ -143,4 +141,4 @@ Sunflower or vegetable oil
         </ul>
 
 
-<?php include_once('./idm232/footer.php'); ?>
+        <?php include_once('.\footer.php'); ?>
