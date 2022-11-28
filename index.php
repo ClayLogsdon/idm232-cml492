@@ -15,8 +15,8 @@
 <nav class="menu">
   <ul>
     <li><a href="http://www.jochaho.com/wordpress/">Home</a></li>
-    <li><a href="http://www.jochaho.com/wordpress/about-pritesh-badge/">Recipes</a></li>
-    <li><a href="http://www.jochaho.com/wordpress/category/news/">Log In</a></li>
+    <li><a href="http://www.jochaho.com/wordpress/about-pritesh-badge/">Categories</a></li>
+    <li><a href="http://www.jochaho.com/wordpress/category/news/">View All Recipes</a></li>
   </ul>
 </nav>
 
