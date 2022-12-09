@@ -1,0 +1,2 @@
+[11-Sep-2021 19:13:52 UTC] PHP Warning:  require_once(../../config.php): failed to open stream: No such file or directory in /home2/clustakf/public_html/clubhouse/users/list.php on line 3
+[11-Sep-2021 19:13:52 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/clustakf/public_html/clubhouse/users/list.php on line 3
